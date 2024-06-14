@@ -20,4 +20,11 @@
 
 ###  AFTER FLASHING ROM REBOOT SYSTEM AND ENJOY !!!!
 
+### THE COMMANDS I USED 
+`fastboot flashing unlock
+fastboot reboot
+fastboot flash recovery recovery.img
+fastboot reboot recovery 
+adb sideload rom.zip` 
+
 ### AND WE CAN FLASH KERNEL THE SAME WAY WE USED TO FLASH ROM AND WE CAN ROOT DEVICE BY USING MAGISK AND KERNEL SU 
