@@ -2,23 +2,23 @@
 ## Hello Guys ! Here i guide you to the core installation of custom rom based on MT6785 device Here i was using Realme 7 the same steps for all realme devices (not for other mobile brands depends on their BL unlock methods)
 
 ## STEPS TO BE FOLLOW BEFORE FLASHING A CUSTOM ROM 
-### EVERY PHONES HAVE BOOTLOADER LOCKED FIRST YOU HAVE TO UNLOCK THE BOOTLOADER OF THE PHONE , HERE I WAS USING REALME 7 SO THERE IS A APK CALLED **INDEPTH APK**  AND YOU HAVE TO CHOOSE FIRMWARE BASED ON TO FLASH CUSTOM ROM FOR EX _RU1 BASED OR RUI2 OR RUI3_ RU IS NOTHING BUT  (REALME UI)
+Every Phones Have Bootloader Locked First You Have To Unlock The Bootloader Of The Phone , Here I Was Using Realme 7 So There Is A Apk Called **Indepth Apk**  And You Have To Choose Firmware Based On To Flash Custom Rom For Ex _Ru1 Based Or Rui2 Or Rui3_ Ru Is Nothing But  (Realme Ui)
 
-### SO HERE I CHOOSE RUI2 BASED INDEPTH APK TO UNLOCK BOOTLOADER SO I CAN FLASH CUSTOM ROM BASED ON RUI2  MANY CUSTOM ROMS ARE AVAILABLE FOR RUI1 AND RUI3 I EARLY MENTION I WAS GOING TO USE RUI2 BASED CROM SO I GONNA UNLOCK BOOTLOADER ON RUI2 BEFORE THAT ENABLE USB DEBUGGING AND OEM UNLOCKING IN DEVELOPER OPTIONS
+So here i choose rui2 based indepth apk to unlock bootloader so i can flash custom rom based on rui2  many custom roms are available for rui1 and rui3 i early mention i was going to use rui2 based crom so i gonna unlock bootloader on rui2 before that enable usb debugging and oem unlocking in developer options
 
-### ENTER THE APP KNOWN AS INDEPTH APK AND START APPLYING APPLICATION AFTER APPLYING APPLICATION START DEEPTESTING AND THE PHONE WILL BOOT INTO FASTBOOT MODE THATS THE PLACE WERE WE CAN USE COMMAND TO UNLOCK THE BOOTLOADER
-
-
-### OPEN YOUR PC AND DOWNLOAD GOOGLE ANDROID PLATFORM TOOLS (AVAILABLE FOR LINUX WINDOWS AND MAC) (https://developer.android.com/tools/releases/platform-tools) EXTRACT IT AND OPEN IT WITH COMMAND PROMPT 
+ Enter the app known as indepth apk and start applying application after applying application start deeptesting and the phone will boot into fastboot mode thats the place were we can use command to unlock the bootloader
 
 
-### CONNECT YOUR MOBILE WITH PC WITH THE USB CABLE AND TYPE THE FOLLOWING COMMAND `fastboot flashing unlock`  AFTER IT OPENS A OPTION IN YOUR FASTBOOT MODE YES OR NO BY USING VOLUME KEYS CHOOSE THE OPTION HERE I USING VOLUME UP KEY TO YES AFTER THAT THE BOOTLOADER HAS BEEN UNLOCKER AFTER THAT FLASH RECOVERY THERE ARE MANY RECOVERY AND GET IT FROM THE DEVICE SUPPORT GROUPS ON TELEGRAM OR XDA FORUM , HERE I UING PBRP(PITCH BLACK RECOVERY PROJECT) COMMAND FOR FLASHING RECOVERY IS `fastboot flashing recovery recovery.img` 
+Open Your Pc And Download Google Android Platform Tools (Available For Linux Windows And Mac) (Https://Developer.Android.Com/Tools/Releases/Platform-Tools) Extract It And Open It With Command Prompt 
 
-### BOOT INTO RECOVERY BY USING THE FOLLOWING COMMAND  `fastboot reboot recovery` AFTER BOOT INTO RECOVERY UNPLUG THE USB AND DO THE FOLLOWING THINGS  ( WIPE > FORMAT DATA > YES ) AND DONE 
 
-### THERE ARE TWO WAYS TO FLASH CUSTOM ROM VIA RECOVERY (ADB SIDELOAD OR USING SD CARD ) HERE I WAS USING SD CARD COME BACK TO HOME ( INSTALL > SELECT SD CARD > SELECT ROM > SWIPE TO FLASH)  FOR THE GUYS WHO DONT HAVE SD CARD DOWNLOAD THE ROM AND KEEP IT IN THE PLACE WHERE YOU WANT AND OPEN TERMINAL IN PC PLUG THE USB WITH YOUR MOBILE ON MOBILE RECOVERY (ADVANCED > ADB SIDELOAD > SWIPE TO SIDELOAD > `adb sideload  rom.zip ` and its done 
+ Connect Your Mobile With Pc With The Usb Cable And Type The Following Command `Fastboot Flashing Unlock`  After It Opens A Option In Your Fastboot Mode Yes Or No By Using Volume Keys Choose The Option Here I Using Volume Up Key To Yes After That The Bootloader Has Been Unlocker After That Flash Recovery There Are Many Recovery And Get It From The Device Support Groups On Telegram Or Xda Forum , Here I Uing Pbrp(Pitch Black Recovery Project) Command For Flashing Recovery Is `Fastboot Flashing Recovery Recovery.Img` 
 
-###  AFTER FLASHING ROM REBOOT SYSTEM AND ENJOY !!!!
+Boot Into Recovery By Using The Following Command  `Fastboot Reboot Recovery` After Boot Into Recovery Unplug The Usb And Do The Following Things  ( Wipe > Format Data > Yes ) And Done 
+
+ There Are Two Ways To Flash Custom Rom Via Recovery (Adb Sideload Or Using Sd Card ) Here I Was Using Sd Card Come Back To Home ( Install > Select Sd Card > Select Rom > Swipe To Flash)  For The Guys Who Dont Have Sd Card Download The Rom And Keep It In The Place Where You Want And Open Terminal In Pc Plug The Usb With Your Mobile On Mobile Recovery (Advanced > Adb Sideload > Swipe To Sideload > `Adb Sideload  Rom.Zip ` And Its Done 
+
+  AFTER FLASHING ROM REBOOT SYSTEM AND ENJOY !!!!
 
 ### THE COMMANDS I USED 
 `fastboot flashing unlock`
@@ -27,4 +27,4 @@
 `fastboot reboot recovery `
 `adb sideload rom.zip`
 
-### AND WE CAN FLASH KERNEL THE SAME WAY WE USED TO FLASH ROM AND WE CAN ROOT DEVICE BY USING MAGISK AND KERNEL SU 
+And We Can Flash Kernel The Same Way We Used To Flash Rom And We Can Root Device By Using Magisk And Kernel Su
